@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AF5BC5BEA7DEC94FE2024A1 /* Pods_BKTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED54D7B852F3D6B19369EA3 /* Pods_BKTemplate.framework */; };
+		DE0B1BC51EE922BA00B91FE7 /* BKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0B1BC41EE922BA00B91FE7 /* BKTableViewCell.m */; };
+		DE12B0431F55545600CC0814 /* BKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE12B0421F55545600CC0814 /* BKTestViewController.m */; };
+		DE18ABF21F4EC33F0084D30C /* BKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18ABF11F4EC33F0084D30C /* BKMainViewController.m */; };
+		DE18ABF61F4EC4CF0084D30C /* BKExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18ABF51F4EC4CF0084D30C /* BKExampleTableViewController.m */; };
+		DE1EF07C1F4D766F00973688 /* BKGCDExample.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1EF07B1F4D766F00973688 /* BKGCDExample.m */; };
+		DE2D11091F57ABC400FD3A12 /* BKNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2D11081F57ABC400FD3A12 /* BKNetworking.m */; };
+		DE2D110D1F57B37100FD3A12 /* BKWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2D110C1F57B37100FD3A12 /* BKWeakTimer.m */; };
+		DE2D11121F58062100FD3A12 /* BKTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2D11111F58062100FD3A12 /* BKTestView.m */; };
+		DE35C2ED1F4FEB4E000D2102 /* BKExampleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35C2EC1F4FEB4E000D2102 /* BKExampleCollectionViewController.m */; };
+		DE35C2F01F4FEC4D000D2102 /* BKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35C2EF1F4FEC4D000D2102 /* BKCollectionViewCell.m */; };
+		DE35C3041F501624000D2102 /* BKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35C3031F501624000D2102 /* BKConst.m */; };
+		DE8E5B4D1EE52E0F00AF677D /* BKMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8E5B491EE52E0F00AF677D /* BKMainNavigationController.m */; };
+		DE8E5B4E1EE52E0F00AF677D /* BKMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8E5B4C1EE52E0F00AF677D /* BKMainTabBarController.m */; };
+		DEB9D8751EE543D100AA7692 /* BKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8581EE543D100AA7692 /* BKAppDelegate.m */; };
+		DEB9D8761EE543D100AA7692 /* BKCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D85C1EE543D100AA7692 /* BKCollectionViewController.m */; };
+		DEB9D8771EE543D100AA7692 /* BKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8601EE543D100AA7692 /* BKNavigationController.m */; };
+		DEB9D8781EE543D100AA7692 /* BKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8631EE543D100AA7692 /* BKTabBarController.m */; };
+		DEB9D8791EE543D100AA7692 /* BKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8671EE543D100AA7692 /* BKTableViewController.m */; };
+		DEB9D87A1EE543D100AA7692 /* BKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D86C1EE543D100AA7692 /* BKViewController.m */; };
+		DEB9D87B1EE543D100AA7692 /* BKUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8711EE543D100AA7692 /* BKUIWebViewController.m */; };
+		DEB9D87C1EE543D100AA7692 /* BKWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8731EE543D100AA7692 /* BKWKWebViewController.m */; };
+		DEB9D8921EE54C0000AA7692 /* BKDefaultPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8911EE54C0000AA7692 /* BKDefaultPageView.m */; };
+		DEB9D8981EE54EC600AA7692 /* BKView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8971EE54EC600AA7692 /* BKView.m */; };
+		DEB9D89C1EE5664200AA7692 /* BKSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D89B1EE5664200AA7692 /* BKSystemInfo.m */; };
+		DED0495D1EDE6DC4004DEA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED0495B1EDE6DC4004DEA6E /* LaunchScreen.storyboard */; };
+		DED0497A1EDE721F004DEA6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED049781EDE721F004DEA6E /* main.m */; };
+		DED0497D1EDE72ED004DEA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED0497C1EDE72ED004DEA6E /* Assets.xcassets */; };
+		DEFD69DC1F56B8D40081FA56 /* BKRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFD69DB1F56B8D40081FA56 /* BKRequestManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ED54D7B852F3D6B19369EA3 /* Pods_BKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA562BE81319A92E9E64F5B /* Pods-BKTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKTemplate/Pods-BKTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		CEACCF6360F8639C413E2CEE /* Pods-BKTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKTemplate/Pods-BKTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		DE0B1BC31EE922BA00B91FE7 /* BKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTableViewCell.h; sourceTree = "<group>"; };
+		DE0B1BC41EE922BA00B91FE7 /* BKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTableViewCell.m; sourceTree = "<group>"; };
+		DE12B0411F55545600CC0814 /* BKTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTestViewController.h; sourceTree = "<group>"; };
+		DE12B0421F55545600CC0814 /* BKTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTestViewController.m; sourceTree = "<group>"; };
+		DE12B0471F55794C00CC0814 /* BKDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDefine.h; sourceTree = "<group>"; };
+		DE18ABF01F4EC33F0084D30C /* BKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMainViewController.h; sourceTree = "<group>"; };
+		DE18ABF11F4EC33F0084D30C /* BKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKMainViewController.m; sourceTree = "<group>"; };
+		DE18ABF41F4EC4CF0084D30C /* BKExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKExampleTableViewController.h; sourceTree = "<group>"; };
+		DE18ABF51F4EC4CF0084D30C /* BKExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKExampleTableViewController.m; sourceTree = "<group>"; };
+		DE1EF07A1F4D766F00973688 /* BKGCDExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKGCDExample.h; sourceTree = "<group>"; };
+		DE1EF07B1F4D766F00973688 /* BKGCDExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKGCDExample.m; sourceTree = "<group>"; };
+		DE2D11071F57ABC400FD3A12 /* BKNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKNetworking.h; sourceTree = "<group>"; };
+		DE2D11081F57ABC400FD3A12 /* BKNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKNetworking.m; sourceTree = "<group>"; };
+		DE2D110B1F57B37100FD3A12 /* BKWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKWeakTimer.h; sourceTree = "<group>"; };
+		DE2D110C1F57B37100FD3A12 /* BKWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKWeakTimer.m; sourceTree = "<group>"; };
+		DE2D11101F58062100FD3A12 /* BKTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTestView.h; sourceTree = "<group>"; };
+		DE2D11111F58062100FD3A12 /* BKTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTestView.m; sourceTree = "<group>"; };
+		DE35C2EB1F4FEB4E000D2102 /* BKExampleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKExampleCollectionViewController.h; sourceTree = "<group>"; };
+		DE35C2EC1F4FEB4E000D2102 /* BKExampleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKExampleCollectionViewController.m; sourceTree = "<group>"; };
+		DE35C2EE1F4FEC4D000D2102 /* BKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCollectionViewCell.h; sourceTree = "<group>"; };
+		DE35C2EF1F4FEC4D000D2102 /* BKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCollectionViewCell.m; sourceTree = "<group>"; };
+		DE35C3021F501624000D2102 /* BKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKConst.h; sourceTree = "<group>"; };
+		DE35C3031F501624000D2102 /* BKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKConst.m; sourceTree = "<group>"; };
+		DE8E5B481EE52E0F00AF677D /* BKMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMainNavigationController.h; sourceTree = "<group>"; };
+		DE8E5B491EE52E0F00AF677D /* BKMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKMainNavigationController.m; sourceTree = "<group>"; };
+		DE8E5B4B1EE52E0F00AF677D /* BKMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMainTabBarController.h; sourceTree = "<group>"; };
+		DE8E5B4C1EE52E0F00AF677D /* BKMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKMainTabBarController.m; sourceTree = "<group>"; };
+		DEB9D8571EE543D100AA7692 /* BKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAppDelegate.h; sourceTree = "<group>"; };
+		DEB9D8581EE543D100AA7692 /* BKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAppDelegate.m; sourceTree = "<group>"; };
+		DEB9D85B1EE543D100AA7692 /* BKCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCollectionViewController.h; sourceTree = "<group>"; };
+		DEB9D85C1EE543D100AA7692 /* BKCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCollectionViewController.m; sourceTree = "<group>"; };
+		DEB9D85F1EE543D100AA7692 /* BKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKNavigationController.h; sourceTree = "<group>"; };
+		DEB9D8601EE543D100AA7692 /* BKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKNavigationController.m; sourceTree = "<group>"; };
+		DEB9D8621EE543D100AA7692 /* BKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTabBarController.h; sourceTree = "<group>"; };
+		DEB9D8631EE543D100AA7692 /* BKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTabBarController.m; sourceTree = "<group>"; };
+		DEB9D8661EE543D100AA7692 /* BKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTableViewController.h; sourceTree = "<group>"; };
+		DEB9D8671EE543D100AA7692 /* BKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTableViewController.m; sourceTree = "<group>"; };
+		DEB9D86B1EE543D100AA7692 /* BKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKViewController.h; sourceTree = "<group>"; };
+		DEB9D86C1EE543D100AA7692 /* BKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKViewController.m; sourceTree = "<group>"; };
+		DEB9D8701EE543D100AA7692 /* BKUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKUIWebViewController.h; sourceTree = "<group>"; };
+		DEB9D8711EE543D100AA7692 /* BKUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKUIWebViewController.m; sourceTree = "<group>"; };
+		DEB9D8721EE543D100AA7692 /* BKWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKWKWebViewController.h; sourceTree = "<group>"; };
+		DEB9D8731EE543D100AA7692 /* BKWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKWKWebViewController.m; sourceTree = "<group>"; };
+		DEB9D8901EE54C0000AA7692 /* BKDefaultPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDefaultPageView.h; sourceTree = "<group>"; };
+		DEB9D8911EE54C0000AA7692 /* BKDefaultPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKDefaultPageView.m; sourceTree = "<group>"; };
+		DEB9D8941EE54E9300AA7692 /* BKConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKConfigure.h; sourceTree = "<group>"; };
+		DEB9D8961EE54EC600AA7692 /* BKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKView.h; sourceTree = "<group>"; };
+		DEB9D8971EE54EC600AA7692 /* BKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKView.m; sourceTree = "<group>"; };
+		DEB9D89A1EE5664200AA7692 /* BKSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKSystemInfo.h; sourceTree = "<group>"; };
+		DEB9D89B1EE5664200AA7692 /* BKSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKSystemInfo.m; sourceTree = "<group>"; };
+		DED0494A1EDE6DC4004DEA6E /* BKTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED0495C1EDE6DC4004DEA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DED049771EDE721F004DEA6E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED049781EDE721F004DEA6E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DED0497C1EDE72ED004DEA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFD69DA1F56B8D40081FA56 /* BKRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKRequestManager.h; sourceTree = "<group>"; };
+		DEFD69DB1F56B8D40081FA56 /* BKRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKRequestManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED049471EDE6DC4004DEA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF5BC5BEA7DEC94FE2024A1 /* Pods_BKTemplate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE07E3BE9E176F491A1B354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED54D7B852F3D6B19369EA3 /* Pods_BKTemplate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		885A631FD63AC7ED5C90AF1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FA562BE81319A92E9E64F5B /* Pods-BKTemplate.debug.xcconfig */,
+				CEACCF6360F8639C413E2CEE /* Pods-BKTemplate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE18ABEC1F4EC30E0084D30C /* BKMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE18ABED1F4EC30E0084D30C /* Controller */,
+				DE18ABEE1F4EC30E0084D30C /* Model */,
+				DE18ABEF1F4EC30E0084D30C /* View */,
+			);
+			path = BKMainViewController;
+			sourceTree = "<group>";
+		};
+		DE18ABED1F4EC30E0084D30C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE18ABF01F4EC33F0084D30C /* BKMainViewController.h */,
+				DE18ABF11F4EC33F0084D30C /* BKMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE18ABEE1F4EC30E0084D30C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE18ABEF1F4EC30E0084D30C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE18ABF31F4EC4BE0084D30C /* BKExampleTable */ = {
+			isa = PBXGroup;
+			children = (
+				DE18ABF41F4EC4CF0084D30C /* BKExampleTableViewController.h */,
+				DE18ABF51F4EC4CF0084D30C /* BKExampleTableViewController.m */,
+				DE12B0411F55545600CC0814 /* BKTestViewController.h */,
+				DE12B0421F55545600CC0814 /* BKTestViewController.m */,
+				DE2D11101F58062100FD3A12 /* BKTestView.h */,
+				DE2D11111F58062100FD3A12 /* BKTestView.m */,
+			);
+			path = BKExampleTable;
+			sourceTree = "<group>";
+		};
+		DE1EF0781F4D764400973688 /* BKExample */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EF0791F4D765400973688 /* BKGCD */,
+			);
+			path = BKExample;
+			sourceTree = "<group>";
+		};
+		DE1EF0791F4D765400973688 /* BKGCD */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EF07A1F4D766F00973688 /* BKGCDExample.h */,
+				DE1EF07B1F4D766F00973688 /* BKGCDExample.m */,
+			);
+			path = BKGCD;
+			sourceTree = "<group>";
+		};
+		DE2D110A1F57B36600FD3A12 /* BKWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D110B1F57B37100FD3A12 /* BKWeakTimer.h */,
+				DE2D110C1F57B37100FD3A12 /* BKWeakTimer.m */,
+			);
+			path = BKWeakTimer;
+			sourceTree = "<group>";
+		};
+		DE35C2E71F4FEB2C000D2102 /* BKExampleCollection */ = {
+			isa = PBXGroup;
+			children = (
+				DE35C2EB1F4FEB4E000D2102 /* BKExampleCollectionViewController.h */,
+				DE35C2EC1F4FEB4E000D2102 /* BKExampleCollectionViewController.m */,
+			);
+			path = BKExampleCollection;
+			sourceTree = "<group>";
+		};
+		DE8E5B451EE52E0F00AF677D /* BKMain */ = {
+			isa = PBXGroup;
+			children = (
+				DE35C2E71F4FEB2C000D2102 /* BKExampleCollection */,
+				DE18ABF31F4EC4BE0084D30C /* BKExampleTable */,
+				DE8E5B461EE52E0F00AF677D /* BKBase */,
+			);
+			path = BKMain;
+			sourceTree = "<group>";
+		};
+		DE8E5B461EE52E0F00AF677D /* BKBase */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E5B4A1EE52E0F00AF677D /* BKMainTabBarController */,
+				DE8E5B471EE52E0F00AF677D /* BKMainNavigationController */,
+				DE18ABEC1F4EC30E0084D30C /* BKMainViewController */,
+			);
+			path = BKBase;
+			sourceTree = "<group>";
+		};
+		DE8E5B471EE52E0F00AF677D /* BKMainNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E5B481EE52E0F00AF677D /* BKMainNavigationController.h */,
+				DE8E5B491EE52E0F00AF677D /* BKMainNavigationController.m */,
+			);
+			path = BKMainNavigationController;
+			sourceTree = "<group>";
+		};
+		DE8E5B4A1EE52E0F00AF677D /* BKMainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E5B4B1EE52E0F00AF677D /* BKMainTabBarController.h */,
+				DE8E5B4C1EE52E0F00AF677D /* BKMainTabBarController.m */,
+			);
+			path = BKMainTabBarController;
+			sourceTree = "<group>";
+		};
+		DEB9D82C1EE5438C00AA7692 /* BKTemplateClass */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8931EE54DCC00AA7692 /* BKConfigure */,
+				DEB9D8991EE5663400AA7692 /* BKSystemInfo */,
+				DEB9D88E1EE54AB900AA7692 /* BKTemplateView */,
+				DEB9D8551EE543D100AA7692 /* BKTemplateController */,
+				DEB9D87D1EE5440D00AA7692 /* BKTemplateTool */,
+			);
+			path = BKTemplateClass;
+			sourceTree = "<group>";
+		};
+		DEB9D8551EE543D100AA7692 /* BKTemplateController */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8561EE543D100AA7692 /* BKAppDelegate */,
+				DEB9D8591EE543D100AA7692 /* BKCollectionViewController */,
+				DEB9D85E1EE543D100AA7692 /* BKNavigationController */,
+				DEB9D8611EE543D100AA7692 /* BKTabBarController */,
+				DEB9D8641EE543D100AA7692 /* BKTableViewController */,
+				DEB9D8691EE543D100AA7692 /* BKViewController */,
+				DEB9D86E1EE543D100AA7692 /* BKWebViewController */,
+			);
+			path = BKTemplateController;
+			sourceTree = "<group>";
+		};
+		DEB9D8561EE543D100AA7692 /* BKAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8571EE543D100AA7692 /* BKAppDelegate.h */,
+				DEB9D8581EE543D100AA7692 /* BKAppDelegate.m */,
+			);
+			path = BKAppDelegate;
+			sourceTree = "<group>";
+		};
+		DEB9D8591EE543D100AA7692 /* BKCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D85A1EE543D100AA7692 /* Controller */,
+				DEB9D85D1EE543D100AA7692 /* View */,
+			);
+			path = BKCollectionViewController;
+			sourceTree = "<group>";
+		};
+		DEB9D85A1EE543D100AA7692 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D85B1EE543D100AA7692 /* BKCollectionViewController.h */,
+				DEB9D85C1EE543D100AA7692 /* BKCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEB9D85D1EE543D100AA7692 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE35C2EE1F4FEC4D000D2102 /* BKCollectionViewCell.h */,
+				DE35C2EF1F4FEC4D000D2102 /* BKCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEB9D85E1EE543D100AA7692 /* BKNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D85F1EE543D100AA7692 /* BKNavigationController.h */,
+				DEB9D8601EE543D100AA7692 /* BKNavigationController.m */,
+			);
+			path = BKNavigationController;
+			sourceTree = "<group>";
+		};
+		DEB9D8611EE543D100AA7692 /* BKTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8621EE543D100AA7692 /* BKTabBarController.h */,
+				DEB9D8631EE543D100AA7692 /* BKTabBarController.m */,
+			);
+			path = BKTabBarController;
+			sourceTree = "<group>";
+		};
+		DEB9D8641EE543D100AA7692 /* BKTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8651EE543D100AA7692 /* Controller */,
+				DEB9D8681EE543D100AA7692 /* View */,
+			);
+			path = BKTableViewController;
+			sourceTree = "<group>";
+		};
+		DEB9D8651EE543D100AA7692 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8661EE543D100AA7692 /* BKTableViewController.h */,
+				DEB9D8671EE543D100AA7692 /* BKTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEB9D8681EE543D100AA7692 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B1BC31EE922BA00B91FE7 /* BKTableViewCell.h */,
+				DE0B1BC41EE922BA00B91FE7 /* BKTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEB9D8691EE543D100AA7692 /* BKViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D86A1EE543D100AA7692 /* Controller */,
+				DEB9D86D1EE543D100AA7692 /* View */,
+			);
+			path = BKViewController;
+			sourceTree = "<group>";
+		};
+		DEB9D86A1EE543D100AA7692 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D86B1EE543D100AA7692 /* BKViewController.h */,
+				DEB9D86C1EE543D100AA7692 /* BKViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEB9D86D1EE543D100AA7692 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEB9D86E1EE543D100AA7692 /* BKWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D86F1EE543D100AA7692 /* Controller */,
+				DEB9D8741EE543D100AA7692 /* View */,
+			);
+			path = BKWebViewController;
+			sourceTree = "<group>";
+		};
+		DEB9D86F1EE543D100AA7692 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8701EE543D100AA7692 /* BKUIWebViewController.h */,
+				DEB9D8711EE543D100AA7692 /* BKUIWebViewController.m */,
+				DEB9D8721EE543D100AA7692 /* BKWKWebViewController.h */,
+				DEB9D8731EE543D100AA7692 /* BKWKWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEB9D8741EE543D100AA7692 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEB9D87D1EE5440D00AA7692 /* BKTemplateTool */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D110A1F57B36600FD3A12 /* BKWeakTimer */,
+				DE1EF0781F4D764400973688 /* BKExample */,
+				DEB9D8821EE545A500AA7692 /* BKNetworking */,
+			);
+			path = BKTemplateTool;
+			sourceTree = "<group>";
+		};
+		DEB9D8821EE545A500AA7692 /* BKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D11071F57ABC400FD3A12 /* BKNetworking.h */,
+				DE2D11081F57ABC400FD3A12 /* BKNetworking.m */,
+				DEFD69DA1F56B8D40081FA56 /* BKRequestManager.h */,
+				DEFD69DB1F56B8D40081FA56 /* BKRequestManager.m */,
+			);
+			path = BKNetworking;
+			sourceTree = "<group>";
+		};
+		DEB9D88E1EE54AB900AA7692 /* BKTemplateView */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8951EE54EB600AA7692 /* BKView */,
+				DEB9D88F1EE54BA500AA7692 /* BKDefaultPageView */,
+			);
+			path = BKTemplateView;
+			sourceTree = "<group>";
+		};
+		DEB9D88F1EE54BA500AA7692 /* BKDefaultPageView */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8901EE54C0000AA7692 /* BKDefaultPageView.h */,
+				DEB9D8911EE54C0000AA7692 /* BKDefaultPageView.m */,
+			);
+			path = BKDefaultPageView;
+			sourceTree = "<group>";
+		};
+		DEB9D8931EE54DCC00AA7692 /* BKConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8941EE54E9300AA7692 /* BKConfigure.h */,
+			);
+			path = BKConfigure;
+			sourceTree = "<group>";
+		};
+		DEB9D8951EE54EB600AA7692 /* BKView */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D8961EE54EC600AA7692 /* BKView.h */,
+				DEB9D8971EE54EC600AA7692 /* BKView.m */,
+			);
+			path = BKView;
+			sourceTree = "<group>";
+		};
+		DEB9D8991EE5663400AA7692 /* BKSystemInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DE12B0471F55794C00CC0814 /* BKDefine.h */,
+				DE35C3021F501624000D2102 /* BKConst.h */,
+				DE35C3031F501624000D2102 /* BKConst.m */,
+				DEB9D89A1EE5664200AA7692 /* BKSystemInfo.h */,
+				DEB9D89B1EE5664200AA7692 /* BKSystemInfo.m */,
+			);
+			path = BKSystemInfo;
+			sourceTree = "<group>";
+		};
+		DED049411EDE6DC4004DEA6E = {
+			isa = PBXGroup;
+			children = (
+				DED0494C1EDE6DC4004DEA6E /* BKTemplate */,
+				DED0494B1EDE6DC4004DEA6E /* Products */,
+				885A631FD63AC7ED5C90AF1D /* Pods */,
+				3BE07E3BE9E176F491A1B354 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DED0494B1EDE6DC4004DEA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED0494A1EDE6DC4004DEA6E /* BKTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED0494C1EDE6DC4004DEA6E /* BKTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9D82C1EE5438C00AA7692 /* BKTemplateClass */,
+				DE8E5B451EE52E0F00AF677D /* BKMain */,
+				DED0497B1EDE72ED004DEA6E /* BKPicturelibrary */,
+				DED049761EDE721F004DEA6E /* BKSupporting */,
+				DED0495B1EDE6DC4004DEA6E /* LaunchScreen.storyboard */,
+			);
+			path = BKTemplate;
+			sourceTree = "<group>";
+		};
+		DED049761EDE721F004DEA6E /* BKSupporting */ = {
+			isa = PBXGroup;
+			children = (
+				DED049771EDE721F004DEA6E /* Info.plist */,
+				DED049781EDE721F004DEA6E /* main.m */,
+			);
+			path = BKSupporting;
+			sourceTree = "<group>";
+		};
+		DED0497B1EDE72ED004DEA6E /* BKPicturelibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DED0497C1EDE72ED004DEA6E /* Assets.xcassets */,
+			);
+			path = BKPicturelibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED049491EDE6DC4004DEA6E /* BKTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED049611EDE6DC4004DEA6E /* Build configuration list for PBXNativeTarget "BKTemplate" */;
+			buildPhases = (
+				94812960C09D30BD4A51BBFE /* [CP] Check Pods Manifest.lock */,
+				DED049461EDE6DC4004DEA6E /* Sources */,
+				DED049471EDE6DC4004DEA6E /* Frameworks */,
+				DED049481EDE6DC4004DEA6E /* Resources */,
+				E1BA695BA8F3B21DD253D506 /* [CP] Embed Pods Frameworks */,
+				9D6B4D5D4C604860BA39915C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKTemplate;
+			productName = BKTemplate;
+			productReference = DED0494A1EDE6DC4004DEA6E /* BKTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED049421EDE6DC4004DEA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BK;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = King;
+				TargetAttributes = {
+					DED049491EDE6DC4004DEA6E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = S5Y4DHZ5E7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DED049451EDE6DC4004DEA6E /* Build configuration list for PBXProject "BKTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DED049411EDE6DC4004DEA6E;
+			productRefGroup = DED0494B1EDE6DC4004DEA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED049491EDE6DC4004DEA6E /* BKTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED049481EDE6DC4004DEA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED0495D1EDE6DC4004DEA6E /* LaunchScreen.storyboard in Resources */,
+				DED0497D1EDE72ED004DEA6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94812960C09D30BD4A51BBFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6B4D5D4C604860BA39915C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKTemplate/Pods-BKTemplate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1BA695BA8F3B21DD253D506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKTemplate/Pods-BKTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED049461EDE6DC4004DEA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2D11091F57ABC400FD3A12 /* BKNetworking.m in Sources */,
+				DEB9D8781EE543D100AA7692 /* BKTabBarController.m in Sources */,
+				DE1EF07C1F4D766F00973688 /* BKGCDExample.m in Sources */,
+				DEB9D87C1EE543D100AA7692 /* BKWKWebViewController.m in Sources */,
+				DEB9D8771EE543D100AA7692 /* BKNavigationController.m in Sources */,
+				DEB9D87B1EE543D100AA7692 /* BKUIWebViewController.m in Sources */,
+				DE2D110D1F57B37100FD3A12 /* BKWeakTimer.m in Sources */,
+				DE12B0431F55545600CC0814 /* BKTestViewController.m in Sources */,
+				DE0B1BC51EE922BA00B91FE7 /* BKTableViewCell.m in Sources */,
+				DEB9D89C1EE5664200AA7692 /* BKSystemInfo.m in Sources */,
+				DE35C2F01F4FEC4D000D2102 /* BKCollectionViewCell.m in Sources */,
+				DEB9D8761EE543D100AA7692 /* BKCollectionViewController.m in Sources */,
+				DED0497A1EDE721F004DEA6E /* main.m in Sources */,
+				DE8E5B4E1EE52E0F00AF677D /* BKMainTabBarController.m in Sources */,
+				DE8E5B4D1EE52E0F00AF677D /* BKMainNavigationController.m in Sources */,
+				DEFD69DC1F56B8D40081FA56 /* BKRequestManager.m in Sources */,
+				DEB9D87A1EE543D100AA7692 /* BKViewController.m in Sources */,
+				DE18ABF21F4EC33F0084D30C /* BKMainViewController.m in Sources */,
+				DEB9D8981EE54EC600AA7692 /* BKView.m in Sources */,
+				DE35C2ED1F4FEB4E000D2102 /* BKExampleCollectionViewController.m in Sources */,
+				DE18ABF61F4EC4CF0084D30C /* BKExampleTableViewController.m in Sources */,
+				DEB9D8921EE54C0000AA7692 /* BKDefaultPageView.m in Sources */,
+				DEB9D8791EE543D100AA7692 /* BKTableViewController.m in Sources */,
+				DE2D11121F58062100FD3A12 /* BKTestView.m in Sources */,
+				DE35C3041F501624000D2102 /* BKConst.m in Sources */,
+				DEB9D8751EE543D100AA7692 /* BKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DED0495B1EDE6DC4004DEA6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED0495C1EDE6DC4004DEA6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED0495F1EDE6DC4004DEA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DED049601EDE6DC4004DEA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED049621EDE6DC4004DEA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA562BE81319A92E9E64F5B /* Pods-BKTemplate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S5Y4DHZ5E7;
+				INFOPLIST_FILE = BKTemplate/BKSupporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BKTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		DED049631EDE6DC4004DEA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEACCF6360F8639C413E2CEE /* Pods-BKTemplate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S5Y4DHZ5E7;
+				INFOPLIST_FILE = BKTemplate/BKSupporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BKTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED049451EDE6DC4004DEA6E /* Build configuration list for PBXProject "BKTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED0495F1EDE6DC4004DEA6E /* Debug */,
+				DED049601EDE6DC4004DEA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED049611EDE6DC4004DEA6E /* Build configuration list for PBXNativeTarget "BKTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED049621EDE6DC4004DEA6E /* Debug */,
+				DED049631EDE6DC4004DEA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED049421EDE6DC4004DEA6E /* Project object */;
+}
