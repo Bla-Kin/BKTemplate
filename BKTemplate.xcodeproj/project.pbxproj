@@ -31,10 +31,10 @@
 		DEB9D87C1EE543D100AA7692 /* BKWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8731EE543D100AA7692 /* BKWKWebViewController.m */; };
 		DEB9D8921EE54C0000AA7692 /* BKDefaultPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8911EE54C0000AA7692 /* BKDefaultPageView.m */; };
 		DEB9D8981EE54EC600AA7692 /* BKView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8971EE54EC600AA7692 /* BKView.m */; };
-		DEB9D89C1EE5664200AA7692 /* BKSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D89B1EE5664200AA7692 /* BKSystemInfo.m */; };
 		DED0495D1EDE6DC4004DEA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED0495B1EDE6DC4004DEA6E /* LaunchScreen.storyboard */; };
 		DED0497A1EDE721F004DEA6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED049781EDE721F004DEA6E /* main.m */; };
 		DED0497D1EDE72ED004DEA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED0497C1EDE72ED004DEA6E /* Assets.xcassets */; };
+		DEF5F3CA1F592D86002F1769 /* BKSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF5F3C91F592D86002F1769 /* BKSystem.m */; };
 		DEFD69DC1F56B8D40081FA56 /* BKRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFD69DB1F56B8D40081FA56 /* BKRequestManager.m */; };
 /* End PBXBuildFile section */
 
@@ -90,13 +90,13 @@
 		DEB9D8941EE54E9300AA7692 /* BKConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKConfigure.h; sourceTree = "<group>"; };
 		DEB9D8961EE54EC600AA7692 /* BKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKView.h; sourceTree = "<group>"; };
 		DEB9D8971EE54EC600AA7692 /* BKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKView.m; sourceTree = "<group>"; };
-		DEB9D89A1EE5664200AA7692 /* BKSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKSystemInfo.h; sourceTree = "<group>"; };
-		DEB9D89B1EE5664200AA7692 /* BKSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKSystemInfo.m; sourceTree = "<group>"; };
 		DED0494A1EDE6DC4004DEA6E /* BKTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED0495C1EDE6DC4004DEA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DED049771EDE721F004DEA6E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED049781EDE721F004DEA6E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DED0497C1EDE72ED004DEA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF5F3C81F592D86002F1769 /* BKSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKSystem.h; sourceTree = "<group>"; };
+		DEF5F3C91F592D86002F1769 /* BKSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKSystem.m; sourceTree = "<group>"; };
 		DEFD69DA1F56B8D40081FA56 /* BKRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKRequestManager.h; sourceTree = "<group>"; };
 		DEFD69DB1F56B8D40081FA56 /* BKRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKRequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -470,8 +470,8 @@
 				DE12B0471F55794C00CC0814 /* BKDefine.h */,
 				DE35C3021F501624000D2102 /* BKConst.h */,
 				DE35C3031F501624000D2102 /* BKConst.m */,
-				DEB9D89A1EE5664200AA7692 /* BKSystemInfo.h */,
-				DEB9D89B1EE5664200AA7692 /* BKSystemInfo.m */,
+				DEF5F3C81F592D86002F1769 /* BKSystem.h */,
+				DEF5F3C91F592D86002F1769 /* BKSystem.m */,
 			);
 			path = BKSystemInfo;
 			sourceTree = "<group>";
@@ -655,7 +655,7 @@
 				DE2D110D1F57B37100FD3A12 /* BKWeakTimer.m in Sources */,
 				DE12B0431F55545600CC0814 /* BKTestViewController.m in Sources */,
 				DE0B1BC51EE922BA00B91FE7 /* BKTableViewCell.m in Sources */,
-				DEB9D89C1EE5664200AA7692 /* BKSystemInfo.m in Sources */,
+				DEF5F3CA1F592D86002F1769 /* BKSystem.m in Sources */,
 				DE35C2F01F4FEC4D000D2102 /* BKCollectionViewCell.m in Sources */,
 				DEB9D8761EE543D100AA7692 /* BKCollectionViewController.m in Sources */,
 				DED0497A1EDE721F004DEA6E /* main.m in Sources */,

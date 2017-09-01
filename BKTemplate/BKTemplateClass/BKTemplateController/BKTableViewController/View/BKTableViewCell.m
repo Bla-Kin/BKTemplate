@@ -28,7 +28,7 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    BKLog(@"aaa");
+    
     [self setupConstraint];
 }
 
@@ -46,7 +46,7 @@
     if (!_bk_imageView) {
         _bk_imageView = [UIImageView new];
         _bk_imageView.contentMode = UIViewContentModeScaleAspectFit;
-        [ContentView addSubview:_bk_imageView];
+        [self.contentView addSubview:_bk_imageView];
     }
     return _bk_imageView;
 }
@@ -67,7 +67,7 @@
         } else {
             _bk_textLabel.font = System_Font(Layout_Width(13.f));
         }
-        [ContentView addSubview:_bk_textLabel];
+        [self.contentView addSubview:_bk_textLabel];
     }
     return _bk_textLabel;
 }
@@ -87,7 +87,7 @@
         } else {
             _bk_detailTextLabel.font = System_Font(Layout_Width(13.f));
         }
-        [ContentView addSubview:_bk_detailTextLabel];
+        [self.contentView addSubview:_bk_detailTextLabel];
     }
     return _bk_detailTextLabel;
 }
@@ -106,7 +106,7 @@
     if (!_bk_indicator) {
         _bk_indicator = [UIImageView new];
         _bk_indicator.contentMode = UIViewContentModeScaleAspectFit;
-        [ContentView addSubview:_bk_indicator];
+        [self.contentView addSubview:_bk_indicator];
     }
     return _bk_indicator;
 }
@@ -126,14 +126,14 @@
         } else {
             _bk_textField.font = System_Font(Layout_Width(13.f));
         }
-        [ContentView addSubview:_bk_textField];
+        [self.contentView addSubview:_bk_textField];
     }
     return _bk_textField;
 }
 
 - (void)setupBaseConstraint {
     
-    [ContentView mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
         if (IPhone_6P) {
             make.edges.mas_equalTo(UIEdgeInsetsMake(0, 20, 0, 20));
         } else {

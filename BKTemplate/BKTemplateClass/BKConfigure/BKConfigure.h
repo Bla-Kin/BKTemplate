@@ -11,8 +11,7 @@
 
 #import "BKDefine.h"
 #import "BKConst.h"
-#import "BKSystemInfo.h"
-
+#import "BKSystem.h"
 
 #import "BKNetworking.h"
 

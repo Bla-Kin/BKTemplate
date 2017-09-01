@@ -16,19 +16,14 @@
 
 @end
 
-
-
-
 @implementation BKMainViewController
 //Example
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    BKLog(@"这是一段测试文字 %@", home_title);
-    BKLog(@"这是一段测试文字 %@", home_title);
-    BKLog(@"这是一段测试文字 %@", home_title);
-    BKLog(@"这是一段测试文字 %@", home_title);
+    CGFloat size = [BKSystem getCacheSize];
     
+    NSLog(@"size:%f", size);
     self.navigationItem.title = home_title;
 }
 
