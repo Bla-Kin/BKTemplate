@@ -23,8 +23,7 @@
     
     CGFloat size = [BKSystem getCacheSize];
     
-    NSLog(@"size:%f", size);
-    self.navigationItem.title = home_title;
+    self.navigationItem.title = @"主页";
 }
 
 #pragma mark - UITableViewDelegate & UITableViewDataSource
