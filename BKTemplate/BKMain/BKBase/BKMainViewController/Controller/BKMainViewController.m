@@ -11,7 +11,6 @@
 #import "BKExampleCollectionViewController.h"
 #import "BKTestViewController.h"
 
-
 @interface BKMainViewController ()
 
 @end
@@ -21,9 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CGFloat size = [BKSystem getCacheSize];
-    
-    self.navigationItem.title = @"主页";
+    self.navigationItem.title = home_title;
 }
 
 #pragma mark - UITableViewDelegate & UITableViewDataSource

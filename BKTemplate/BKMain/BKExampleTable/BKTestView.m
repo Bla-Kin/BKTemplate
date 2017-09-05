@@ -25,6 +25,11 @@
 - (void)setupView {
     [super setupView];
     
+    _label = [YYLabel new];
+    _label.textAlignment = NSTextAlignmentCenter;
+    _label.font =  System_Font(13.f);
+    [self addSubview:_label];
+    
     _button = [UIButton buttonWithType:UIButtonTypeSystem];
     [_button setTitle:@"这是按钮" forState:(UIControlStateNormal)];
     [_button setTitleColor:[UIColor redColor] forState:(UIControlStateNormal)];
@@ -56,6 +61,14 @@
         make.centerY.equalTo(@0);
         
         make.size.mas_equalTo(CGSizeMake(80, 80));
+    }];
+    
+    [_label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(@15);
+        
+        make.right.equalTo(@-15);
+        
+        make.bottom.equalTo(_button.mas_top).offset(-50);
     }];
 }
 

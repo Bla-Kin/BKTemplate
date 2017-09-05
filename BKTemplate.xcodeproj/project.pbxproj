@@ -19,6 +19,7 @@
 		DE35C2ED1F4FEB4E000D2102 /* BKExampleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35C2EC1F4FEB4E000D2102 /* BKExampleCollectionViewController.m */; };
 		DE35C2F01F4FEC4D000D2102 /* BKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35C2EF1F4FEC4D000D2102 /* BKCollectionViewCell.m */; };
 		DE35C3041F501624000D2102 /* BKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35C3031F501624000D2102 /* BKConst.m */; };
+		DE8DC4271F5D525B00E855DB /* BKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DC4261F5D525B00E855DB /* BKProgressHUD.m */; };
 		DE8E5B4D1EE52E0F00AF677D /* BKMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8E5B491EE52E0F00AF677D /* BKMainNavigationController.m */; };
 		DE8E5B4E1EE52E0F00AF677D /* BKMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8E5B4C1EE52E0F00AF677D /* BKMainTabBarController.m */; };
 		DEB9D8751EE543D100AA7692 /* BKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9D8581EE543D100AA7692 /* BKAppDelegate.m */; };
@@ -65,6 +66,8 @@
 		DE35C2EF1F4FEC4D000D2102 /* BKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCollectionViewCell.m; sourceTree = "<group>"; };
 		DE35C3021F501624000D2102 /* BKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKConst.h; sourceTree = "<group>"; };
 		DE35C3031F501624000D2102 /* BKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKConst.m; sourceTree = "<group>"; };
+		DE8DC4251F5D525B00E855DB /* BKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKProgressHUD.h; sourceTree = "<group>"; };
+		DE8DC4261F5D525B00E855DB /* BKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKProgressHUD.m; sourceTree = "<group>"; };
 		DE8E5B481EE52E0F00AF677D /* BKMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMainNavigationController.h; sourceTree = "<group>"; };
 		DE8E5B491EE52E0F00AF677D /* BKMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKMainNavigationController.m; sourceTree = "<group>"; };
 		DE8E5B4B1EE52E0F00AF677D /* BKMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMainTabBarController.h; sourceTree = "<group>"; };
@@ -209,6 +212,15 @@
 				DE35C2EC1F4FEB4E000D2102 /* BKExampleCollectionViewController.m */,
 			);
 			path = BKExampleCollection;
+			sourceTree = "<group>";
+		};
+		DE8DC4241F5D523600E855DB /* BKProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DC4251F5D525B00E855DB /* BKProgressHUD.h */,
+				DE8DC4261F5D525B00E855DB /* BKProgressHUD.m */,
+			);
+			path = BKProgressHUD;
 			sourceTree = "<group>";
 		};
 		DE8E5B451EE52E0F00AF677D /* BKMain */ = {
@@ -411,9 +423,10 @@
 		DEB9D87D1EE5440D00AA7692 /* BKTemplateTool */ = {
 			isa = PBXGroup;
 			children = (
+				DEB9D8821EE545A500AA7692 /* BKNetworking */,
+				DE8DC4241F5D523600E855DB /* BKProgressHUD */,
 				DE2D110A1F57B36600FD3A12 /* BKWeakTimer */,
 				DE1EF0781F4D764400973688 /* BKExample */,
-				DEB9D8821EE545A500AA7692 /* BKNetworking */,
 			);
 			path = BKTemplateTool;
 			sourceTree = "<group>";
@@ -671,6 +684,7 @@
 				DEB9D8791EE543D100AA7692 /* BKTableViewController.m in Sources */,
 				DE2D11121F58062100FD3A12 /* BKTestView.m in Sources */,
 				DE35C3041F501624000D2102 /* BKConst.m in Sources */,
+				DE8DC4271F5D525B00E855DB /* BKProgressHUD.m in Sources */,
 				DEB9D8751EE543D100AA7692 /* BKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

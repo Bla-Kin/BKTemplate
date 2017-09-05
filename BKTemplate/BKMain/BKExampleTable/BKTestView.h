@@ -18,4 +18,6 @@
 
 @property (weak, nonatomic) id <BKTestViewDelegate> delegate;
 
+@property (strong, nonatomic) YYLabel *label;
+
 @end
