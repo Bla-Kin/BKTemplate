@@ -66,6 +66,10 @@ void (^BKLogBlock)(id weakSelf) = ^(id weakSelf){
 //
 ////    [BKProgressHUD showMessageHud:self.navigationController.view message:@"这是一段描述文字"];
 //    [BKProgressHUD showLoadingHud:self.navigationController.view message:@"正在加载"];
+    
+    [UIView animateWithDuration:1 animations:^{
+        
+    }];
 }
 
 @end
